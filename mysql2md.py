@@ -44,6 +44,7 @@ def output_to_md_file(table_name, table_comment, columns, output_file):
 
             output_file.write(column_str)
     output_file.write('\r\n')
+    output_file.write('\r\n')
 
 
 def create():
